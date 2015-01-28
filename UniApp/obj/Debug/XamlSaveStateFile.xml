@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\shubhanshu\documents\visual studio 2013\projects\uniapp\uniapp\obj\debug\intermediatexaml\uniapp.exe" HashGuid="4b20128c-b0cd-23f4-c640-efbff2ae61d2" />
+    <ReferenceAssembly PathName="c:\users\shubhanshu\documents\visual studio 2013\projects\uniapp\packages\microsoft.data.edm.5.6.0\lib\portable-net40+sl5+wp8+win8\microsoft.data.edm.portable.dll" HashGuid="f045e1a5-0e06-a083-1449-ff381767d07b" />
+    <ReferenceAssembly PathName="c:\users\shubhanshu\documents\visual studio 2013\projects\uniapp\packages\microsoft.data.odata.5.6.0\lib\portable-net40+sl5+wp8+win8\microsoft.data.odata.portable.dll" HashGuid="286ad8e6-6a8c-62c8-4d27-161dd3caf466" />
+    <ReferenceAssembly PathName="c:\users\shubhanshu\documents\visual studio 2013\projects\uniapp\packages\windowsazure.storage.4.0.0\lib\win8\microsoft.windowsazure.storage.dll" HashGuid="e14f6976-9392-342e-3204-b1aaab28f624" />
+    <ReferenceAssembly PathName="c:\users\shubhanshu\documents\visual studio 2013\projects\uniapp\packages\system.spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\system.spatial.portable.dll" HashGuid="5fe7c047-94c0-1029-eb83-ede093ee2841" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

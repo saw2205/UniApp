@@ -1,0 +1,366 @@
+﻿<Page
+	x:Class="UniApp.CourseRegistrationPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:UniApp"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d">
+	<Page.Resources>
+
+		<Style x:Key="ListViewItemStyle4" TargetType="ListViewItem">
+			<Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+			<Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="TabNavigation" Value="Local"/>
+			<Setter Property="IsHoldingEnabled" Value="True"/>
+			<Setter Property="Margin" Value="0,0,18,2"/>
+			<Setter Property="HorizontalContentAlignment" Value="Left"/>
+			<Setter Property="VerticalContentAlignment" Value="Top"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="ListViewItem">
+						<ListViewItemPresenter x:Name="listViewItemPresenter" CheckHintBrush="{ThemeResource ListViewItemCheckHintThemeBrush}" CheckBrush="{ThemeResource ListViewItemCheckThemeBrush}" ContentMargin="4" ContentTransitions="{TemplateBinding ContentTransitions}" CheckSelectingBrush="{ThemeResource ListViewItemCheckSelectingThemeBrush}" DragForeground="{ThemeResource ListViewItemDragForegroundThemeBrush}" DragOpacity="{ThemeResource ListViewItemDragThemeOpacity}" DragBackground="{ThemeResource ListViewItemDragBackgroundThemeBrush}" DisabledOpacity="{ThemeResource ListViewItemDisabledThemeOpacity}" FocusBorderBrush="{ThemeResource ListViewItemFocusBorderThemeBrush}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" PointerOverBackgroundMargin="1" PlaceholderBackground="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" PointerOverBackground="{ThemeResource ListViewItemPointerOverBackgroundThemeBrush}" ReorderHintOffset="{ThemeResource ListViewItemReorderHintThemeOffset}" SelectedBorderThickness="{ThemeResource ListViewItemCompactSelectedBorderThemeThickness}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False">
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="PointerOver">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Pressed">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="PointerOverPressed">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Disabled">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="SelectionHintStates">
+									<VisualState x:Name="VerticalSelectionHint">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="HorizontalSelectionHint">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="NoSelectionHint">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="SelectionStates">
+									<VisualState x:Name="UnselectedSwiping">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="UnselectedPointerOver">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Selecting">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Selected">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="SelectedSwiping">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Unselecting">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Unselected">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="SelectedUnfocused">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+						</ListViewItemPresenter>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ListViewItemStyle5" TargetType="ListViewItem">
+			<Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+			<Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="TabNavigation" Value="Local"/>
+			<Setter Property="IsHoldingEnabled" Value="True"/>
+			<Setter Property="Margin" Value="0,0,18,2"/>
+			<Setter Property="HorizontalContentAlignment" Value="Left"/>
+			<Setter Property="VerticalContentAlignment" Value="Top"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="ListViewItem">
+						<ListViewItemPresenter x:Name="listViewItemPresenter" CheckHintBrush="{ThemeResource ListViewItemCheckHintThemeBrush}" CheckBrush="Black" ContentMargin="4" ContentTransitions="{TemplateBinding ContentTransitions}" CheckSelectingBrush="{ThemeResource ListViewItemCheckSelectingThemeBrush}" DragForeground="{ThemeResource ListViewItemDragForegroundThemeBrush}" DragOpacity="{ThemeResource ListViewItemDragThemeOpacity}" DragBackground="{ThemeResource ListViewItemDragBackgroundThemeBrush}" DisabledOpacity="{ThemeResource ListViewItemDisabledThemeOpacity}" FocusBorderBrush="{ThemeResource ListViewItemFocusBorderThemeBrush}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" PointerOverBackgroundMargin="1" PlaceholderBackground="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" PointerOverBackground="{ThemeResource ListViewItemPointerOverBackgroundThemeBrush}" ReorderHintOffset="{ThemeResource ListViewItemReorderHintThemeOffset}" SelectedBorderThickness="{ThemeResource ListViewItemCompactSelectedBorderThemeThickness}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" SelectionCheckMarkVisualEnabled="True">
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="PointerOver">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Pressed">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="PointerOverPressed">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Disabled">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="SelectionHintStates">
+									<VisualState x:Name="VerticalSelectionHint">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="HorizontalSelectionHint">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="NoSelectionHint">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="SelectionStates">
+									<VisualState x:Name="UnselectedSwiping">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="UnselectedPointerOver">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Selecting">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Selected">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="SelectedSwiping">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Unselecting">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Unselected">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="SelectedUnfocused">
+										<Storyboard>
+											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ListViewItemPresenter.DragBackground)" Storyboard.TargetName="listViewItemPresenter">
+												<DiscreteObjectKeyFrame KeyTime="0" Value="{x:Null}"/>
+											</ObjectAnimationUsingKeyFrames>
+										</Storyboard>
+									</VisualState>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+						</ListViewItemPresenter>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Page.Resources>
+
+	<Grid Background="#FFF1EDBD">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="680*"/>
+			<ColumnDefinition Width="680*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="170*"/>
+			<RowDefinition Height="600*"/>
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0">
+			<ProgressRing VerticalAlignment="Top" Width="25" Height="25" x:Name="TaskStatusRing"/>
+			<TextBlock x:Name="TaskStatusBox" Text="" Height="30" VerticalAlignment="Top" Width="600" FontSize="15" Foreground="Black"/>
+
+		</StackPanel>
+        <Button x:ConnectionId='1' Grid.Row="0" Grid.Column="1" Content="Logout" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Right"                       />
+		<StackPanel Grid.Column="1" Grid.Row="1">
+			<TextBlock FontWeight="Bold" Foreground="Black" FontSize="40" Text="Available Course List"/>
+			<ProgressBar HorizontalAlignment="Left" Width="400" x:Name="AvailableCourseListProgress"  IsIndeterminate="False"/>
+			<ListView x:ConnectionId='4'  x:Name="CourseAvailableList" Height="520" Width="660" Grid.Row="1" Grid.Column="1" ItemContainerStyle="{StaticResource ListViewItemStyle5}"                                                        >
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<StackPanel x:ConnectionId='5' Width="660" Tag="{Binding Field1}" Orientation="Vertical"                           >
+							<StackPanel Orientation="Vertical">
+								<TextBlock Text="{Binding Field1}" Foreground="Black" SelectionHighlightColor="#FF5CCFD4"></TextBlock>
+								<TextBlock Text="{Binding Field2}" Foreground="Black" SelectionHighlightColor="#FF8BECEC"></TextBlock>
+								<Border Width="37" Height="37" BorderBrush="White" BorderThickness="2">
+									<Image x:ConnectionId='6' Tag="{Binding Field1}" Width="35" Height="35" Source="Assets/Add.png"                        />
+								</Border>
+							</StackPanel>
+
+							<!--<Button Content="+"></Button>-->
+						</StackPanel>
+
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackPanel>
+
+		<StackPanel Margin="5" Grid.Row="1" Grid.Column="0">
+			<StackPanel Orientation="Vertical">
+				<TextBlock FontSize="40" Text="Registered Course List" FontWeight="Bold" Foreground="Black"/>
+				<ProgressBar HorizontalAlignment="Left" Width="400" x:Name="CourseListRegLoadProgress"  IsIndeterminate="False"/>
+			</StackPanel>
+			<ListView x:Name="RegisteredCourseList" Grid.Column="0" Height="520" Grid.Row="1" ItemContainerStyle="{StaticResource ListViewItemStyle4}">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<StackPanel Orientation="Vertical">
+							<StackPanel Orientation="Vertical">
+								<TextBlock Text="{Binding Field1}" Foreground="Black"/>
+								<TextBlock Text="{Binding Field2}" Foreground="Black"/>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<!--<Button Content="Remove" Foreground="Black" />
+								<Button Content="Substitute" Foreground="Black"/>-->
+								<Border BorderThickness="2" BorderBrush="White" >
+									<Image x:ConnectionId='3' Tag="{Binding Field1}"                       Height="35" Width="35" Source="Assets/remove.png"/>
+								</Border>
+								<Border BorderThickness="2" BorderBrush="White" >
+									<Image x:ConnectionId='2' Tag="{Binding Field1}"                         Height="35" Width="35" Source="Assets/Substitute.png"/>
+								</Border>
+
+							</StackPanel>
+
+						</StackPanel>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Left" Width="600" VerticalAlignment="Center" Height="70">
+			<!--<ProgressRing x:Name="CheckProgress" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45" Width="45"/>-->
+			<TextBlock x:Name="HelloTextBlock" Grid.Row="0" TextWrapping="Wrap" Text="Hello" FontSize="25" Foreground="Black" Height="70" Width="450"/>
+		</StackPanel>
+
+
+	</Grid>
+</Page>
+

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHUBH</Machine>
+    <WindowsUser>sskshubh</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b4495fe4-7771-4cae-8bce-d5554f89ecef</PackageIdentityName>
+    <RegisteredManifestChecksum>1E2875FB2A78EBCE4BE8400A283F1BC7880C3F53C3B1DCF8BA8C3965A73EAAE1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b4495fe4-7771-4cae-8bce-d5554f89ecef_1.0.0.0_neutral__c4h8w4gjb21k8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b4495fe4-7771-4cae-8bce-d5554f89ecef_c4h8w4gjb21k8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b4495fe4-7771-4cae-8bce-d5554f89ecef</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=sskshubh</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-19T14:37:30.607</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\bin\Debug\UniApp.exe">
+      <PackagePath>UniApp.exe</PackagePath>
+      <Modified>2014-05-19T16:58:10.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\Microsoft.Data.Edm.Portable.dll">
+      <PackagePath>Microsoft.Data.Edm.Portable.dll</PackagePath>
+      <Modified>2014-05-17T06:13:09.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\Microsoft.Data.OData.Portable.dll">
+      <PackagePath>Microsoft.Data.OData.Portable.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\WindowsAzure.Storage.4.0.0\lib\win8\Microsoft.WindowsAzure.Storage.dll">
+      <PackagePath>Microsoft.WindowsAzure.Storage.dll</PackagePath>
+      <Modified>2014-05-17T06:13:12.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\System.Spatial.Portable.dll">
+      <PackagePath>System.Spatial.Portable.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\de\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>de\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\es\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>es\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\fr\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>fr\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\it\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>it\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\ja\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>ja\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\ko\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>ko\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\ru\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>ru\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:09.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hans\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:09.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hant\Microsoft.Data.Edm.Portable.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Data.Edm.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:09.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\de\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>de\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\es\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>es\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\fr\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>fr\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\it\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>it\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\ja\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>ja\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\ko\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>ko\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\ru\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>ru\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hans\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hant\Microsoft.Data.OData.Portable.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Data.OData.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:10.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\de\System.Spatial.Portable.resources.dll">
+      <PackagePath>de\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\es\System.Spatial.Portable.resources.dll">
+      <PackagePath>es\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\fr\System.Spatial.Portable.resources.dll">
+      <PackagePath>fr\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\it\System.Spatial.Portable.resources.dll">
+      <PackagePath>it\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\ja\System.Spatial.Portable.resources.dll">
+      <PackagePath>ja\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\ko\System.Spatial.Portable.resources.dll">
+      <PackagePath>ko\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\ru\System.Spatial.Portable.resources.dll">
+      <PackagePath>ru\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hans\System.Spatial.Portable.resources.dll">
+      <PackagePath>zh-Hans\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hant\System.Spatial.Portable.resources.dll">
+      <PackagePath>zh-Hant\System.Spatial.Portable.resources.dll</PackagePath>
+      <Modified>2014-05-17T06:13:08.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\Add.png">
+      <PackagePath>Assets\Add.png</PackagePath>
+      <Modified>2014-05-19T14:04:53.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\remove.png">
+      <PackagePath>Assets\remove.png</PackagePath>
+      <Modified>2014-05-19T12:34:14.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T02:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\Substitute.png">
+      <PackagePath>Assets\Substitute.png</PackagePath>
+      <Modified>2014-05-19T07:15:51.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\Assets\BITS-PILANI-DUBAI-CAMPUS-2012.jpg">
+      <PackagePath>Assets\BITS-PILANI-DUBAI-CAMPUS-2012.jpg</PackagePath>
+      <Modified>2014-05-17T06:23:31.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-05-19T14:37:24.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\bin\Debug\CourseRegistrationPage.xbf">
+      <PackagePath>CourseRegistrationPage.xbf</PackagePath>
+      <Modified>2014-05-19T16:58:10.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-05-19T14:37:24.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shubhanshu\Documents\Visual Studio 2013\Projects\UniApp\UniApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-19T16:33:51.938</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
